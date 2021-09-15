@@ -8,16 +8,14 @@
 </head>
 <body>
     <center>
-        <h1>Displaying Django Built in Forms</h1>
+        <h1>Inserting Data into Topic By using Django forms</h1>
         <form method="POST">
             {% csrf_token %}
                 {{form.as_p}}
 
             <input type="submit" value="Submit">
-
         </form>
-
-
+    
     </center>
 </body>
 </html>

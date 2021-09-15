@@ -8,16 +8,12 @@
 </head>
 <body>
     <center>
-        <h1>Displaying Django Built in Forms</h1>
-        <form method="POST">
-            {% csrf_token %}
-                {{form.as_p}}
-
-            <input type="submit" value="Submit">
-
-        </form>
-
-
+        <h1>Displaying the content of Submitted form</h1>
+        <h2>{{name}}</h2>
+        <h2>{{age}}</h2>
+        <h2>{{pw}}</h2>
+        <h2>{{ad}}</h2>
+        <h2>{{gender}}</h2>
     </center>
 </body>
 </html>

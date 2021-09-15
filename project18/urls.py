@@ -19,4 +19,5 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('student/',student,name='student'),
+    path('insert_topic/',insert_topic,name='insert_topic'),
 ]
